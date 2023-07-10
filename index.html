@@ -14,13 +14,16 @@
         height: 20px;
         background-color: rgb(253, 3, 157);
         color: black;
+        margin-bottom: 30px;
       }
-      nav {
+      nav ul li {
+        display: inline-block;
+        margin-right: 50px;
         text-transform: uppercase;
       }
-      .navContent{
+      /* .navContent {
         margin-right: 50px;
-      }
+      } */
       .a1,
       .a2,
       .a3,
@@ -31,12 +34,16 @@
       .fa-linkedin-square,
       .fa-github-square {
         color: rgb(59, 8, 241);
-        margin-right: 30px;
+        /* margin-right: 30px; */
       }
       .headerContent {
         margin-right: 50px;
         margin-left: 10px;
       }
+      .footer li {
+        display: inline-block;
+        margin-right: 30px;
+      } 
       .f1{
         margin-right: 30px;
       }
@@ -55,19 +62,42 @@
       >
       <a
         href="assets/Tabbasum_Software_Tester_3.1 yrs_experinece.pdf"
-        target="_blank" download
-        > <button>Download Resume</button></a
+        target="_blank"
+        download
+      >
+        <button>Download Resume</button></a
       >
     </header>
-    <br /><br />
+
     <nav>
-      <a href="home.html" target="myFrame" class="a1"> <span class="navContent">Home</span></a>
-      <a href="techStack.html" target="myFrame" class="a2"><span class="navContent">Techstack</span></a>
-      <a href="project.html" target="myFrame" class="a3"><span class="navContent">Project</span></a>
-      <a href="education.html" target="myFrame" class="a4"><span class="navContent">Education</span></a>
-      <a href="aboutMe.html" target="myFrame" class="a5"><span class="navContent">About me</span></a>
+      <ul>
+        <li>
+          <a href="home.html" target="myFrame" class="a1">
+            <span class="navContent">Home</span></a
+          >
+        </li>
+        <li>
+          <a href="techStack.html" target="myFrame" class="a2"
+            ><span class="navContent">Techstack</span></a
+          >
+        </li>
+        <li>
+          <a href="project.html" target="myFrame" class="a3"
+            ><span class="navContent">Project</span></a
+          >
+        </li>
+        <li>
+          <a href="education.html" target="myFrame" class="a4"
+            ><span class="navContent">Education</span></a
+          >
+        </li>
+        <li>
+          <a href="aboutMe.html" target="myFrame" class="a5"
+            ><span class="navContent">About me</span></a
+          >
+        </li>
+      </ul>
     </nav>
-    <br />
     <iframe
       width="700px"
       height="500px"
@@ -77,15 +107,20 @@
     ></iframe>
     <br />
     <footer>
-      <span class="f1">Follow Me:</span>
-      
-      <a href="https://github.com/" target="_blank"
-        ><i class="fa fa-github-square fa-2x" aria-hidden="true"></i
-      ></a>
-      
-      <a href="https://www.linkedin.com/feed/" target="_blank">
-        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
-      ></a>
+      <ul class="footer">
+        <span class="f1">Follow Me:</span>
+        <li>
+          <a href="https://github.com/" target="_blank"
+            ><i class="fa fa-github-square fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
       <p>
         Copyright &copy;2023 Zoom Video Communications,lnc. All rights reserved.
       </p>
