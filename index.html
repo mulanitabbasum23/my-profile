@@ -9,10 +9,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
     <style>
       header {
         height: 20px;
-        background-color: rgb(253, 3, 157);
+        background-color: aqua;
         color: black;
         margin-bottom: 30px;
       }
@@ -20,6 +26,7 @@
         display: inline-block;
         margin-right: 50px;
         text-transform: uppercase;
+        font-family: "Signika Negative", sans-serif;
       }
       /* .navContent {
         margin-right: 50px;
@@ -38,13 +45,18 @@
       .headerContent {
         margin-right: 50px;
         margin-left: 10px;
+        font-family: "Signika Negative", sans-serif;
       }
       .footer li {
-        display: inline-block;
+        display: inline;
         margin-right: 30px;
-      } 
-      .f1{
-        margin-right: 30px;
+        font-family: "Signika Negative", sans-serif;
+      }
+      .footer {
+        display: inline;
+      }
+      p {
+        font-family: "Sofia", cursive;
       }
     </style>
   </head>
@@ -99,15 +111,14 @@
     </nav>
     <iframe
       width="700px"
-      height="500px"
+      height="500"
       name="myFrame"
       src="home.html"
       frameborder="0"
     ></iframe>
-    <br />
     <footer>
+      <span class="f1">Follow Me:</span>
       <ul class="footer">
-        <span class="f1">Follow Me:</span>
         <li>
           <a href="https://github.com/" target="_blank"
             ><i class="fa fa-github-square fa-2x" aria-hidden="true"></i
