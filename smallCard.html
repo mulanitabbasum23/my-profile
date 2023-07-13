@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Small Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        display: inline-block;
+      }
+      .photo-section {
+        display: inline-block;
+      }
+      .content-section {
+        display: inline-block;
+        width: 500px;
+        height: 300px;
+      }
+      .study {
+        width: 500px;
+        height: 300px;
+      }
+      .p1 {
+        display: inline-block;
+        margin-left: 200px;
+        padding: 0;
+        text-align: center;
+        color: rgb(221, 71, 71);
+      }
+      /* h3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: rgb(209, 80, 19);
+      } */
+      h2 {
+        font-family: "Sofia", cursive;
+        color: rgb(14, 116, 116);
+      }
+      .icon {
+        display: inline-block;
+        margin-left: 150px;
+        width: 30px;
+        height: 30px;
+      }
+      .points li {
+        padding: 10px;
+        list-style-type: none;
+        font-family: "Roboto", sans-serif;
+      }
+      .points li::before {
+        content: "✍️";
+      }
+      .follow {
+        margin-right: 20px;
+        color: rgb(250, 35, 117);
+      }
+      .fa-github-square,
+      .fa-linkedin-square {
+        margin-right: 20px;
+      }
+      .fa-github-square:hover,
+      .fa-linkedin-square:hover {
+        color: rgb(216, 32, 32);
+      }
+      .js {
+        margin-left: 10px;
+        padding: 0;
+        text-align: center;
+        color: rgb(100, 35, 5);
+        font-size: larger;
+      }
+      .li1 {
+        background-color: rgb(209, 64, 228);
+      }
+      .field{
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset class="field">
+      <div class="container">
+        <div class="photo-section">
+          <img src="assets/Study.png" alt="Studying Image" class="study" />
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="p1">Powered by</td>
+              </tr>
+              <tr>
+                <td>
+                  <label for=""
+                    ><img src="assets/Icon.png" alt="" class="icon" /></label
+                  ><span class="js">JSoftwareLabs</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br />
+          <span class="follow">Follow me:</span>
+          <a href="https://github.com/" target="_blank"
+            ><i class="fa fa-github-square fa-lg" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div class="content-section">
+          <h2>Compare Text Online</h2>
+          <ul class="points">
+            <li>Compare Text online free</li>
+            <li class="li1">Supports large file camparison</li>
+            <li>Ignore order and namespaces</li>
+            <li>Side by side diff view</li>
+            <li>Get results in tabular format for quick reference</li>
+            <li>TEXT diff tool</li>
+            <li>REST API</li>
+          </ul>
+        </div>
+      </div>
+    </fieldset>
+  </body>
+</html>
