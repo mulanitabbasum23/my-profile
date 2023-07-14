@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      .field {
+        width: 300px;
+        height: 560px;
+        border-radius: 10px;
+      }
+      .p1 {
+        width: 320px;
+        height: 150px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: rgb(123, 158, 233);
+        color: rgb(240, 232, 232);
+        text-align: start;
+        padding: 15px;
+        font-family: "Roboto", sans-serif;
+      }
+      .l1 {
+        display: block;
+      }
+      span {
+        color: red;
+        width: 2px;
+        height: 2px;
+      }
+      input {
+        width: 320px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgba(223, 223, 223, 0.781);
+        border: 0;
+        margin-bottom: 40px;
+        margin-top: 10px;
+      }
+      .text {
+        width: 320px;
+        height: 50px;
+      }
+      .button {
+        width: 100px;
+        height: 30px;
+        margin-left: 250px;
+        background-color: rgba(223, 223, 223, 0.781);
+        border: 0;
+      }
+      h2,.l1,.l2,.button{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset class="field">
+      <h2>Subscriber</h2>
+      <hr />
+      <p class="p1">
+        We're sorry to see you go,but hey,no hard feelings,hopefully wew will
+        see you back one day. Please fill in email address in order to
+        unsubscribe from the list.You will receive an email to confirm your
+        unsubscription,just to make sure this not an accident or somebody tries
+        to unsubscribe you.
+      </p>
+      <label class="l1">Email <span>*</span></label>
+      <input type="email" />
+      <label class="l2">Unsubscribe reason</label>
+      <input type="text" class="text" placeholder="Unsubscribe reason" />
+      <button class="button">Unsubscribe</button>
+    </fieldset>
+  </body>
+</html>
