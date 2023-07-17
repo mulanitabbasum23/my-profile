@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .div1{
+            display: inline-block;
+            width: 270px;
+            height: 350px;
+            background-color: white;
+            position: relative;
+            top: 70px;
+            left: 40px;
+            border: 2px solid black;
+            
+        }
+
+        .div2{
+            display: inline-block;
+            width: 270px;
+            height: 350px;
+            background-color: white;
+            position: relative;
+            left: 70px;
+            top: 30px;
+            border: 2px solid black;
+        }
+        .div3{
+            display: inline-block;
+            width: 270px;
+            height: 350px;
+            background-color: white;
+            position: relative;
+            top: 70px;
+            left: 100px;
+            border: 2px solid black;
+        }
+        .basic{
+            display: inline-block;
+            width: 270px;
+            height: 40px;
+            background-color: #147539;
+            position: relative;
+            margin: 0;
+            padding-top: 20px;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            font-family: 'Poppins', sans-serif;
+         
+        }
+        .std1{
+            display: inline-block;
+            width: 270px;
+            height: 50px;
+            background-color: rgb(224, 64, 36);
+            position: relative;
+            margin: 0;
+            padding-top: 20px;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            font-family: 'Poppins', sans-serif;
+            
+
+        }.std2{
+            display: inline-block;
+            width: 270px;
+            height: 50px;
+            background-color: #147539;
+            position: relative;
+            margin: 0;
+            padding-top: 20px;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            font-family: 'Poppins', sans-serif;
+        }
+        .ul1 li{
+            list-style: none;
+        }
+        .ul1 li::before{
+            content: "✔️";
+        }
+         .ul1 .li1::before{
+            content: "❌";
+        }
+        .p1{
+            text-align: center;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .button{
+            background-color: #07702f;
+            color: white;
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            margin-left: 40px;
+            font-family: 'Poppins', sans-serif;
+            font-size: large;
+        }
+        .ul2 li{
+            list-style: none;
+        }
+        .ul2 li::before{
+            content: "✔️";
+        }
+        .ul2 .li1::before{
+            content: "❌";
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p class="basic">Basic</p>
+        <ul class="ul1">
+            <li>Hosting</li>
+            <li class="li1">Domain</li>
+            <li>1 GB Space</li>
+            <li class="li1">Free SSl</li>
+            <li>1 Website Host</li>
+        </ul>
+        <p class="p1">&dollar; 5</p>
+        <button class="button">Buy Now</button>
+    </div>
+    <div class="div2">
+        <p class="std1">Standard</p>
+        <ul class="ul2">
+            <li>Hosting</li>
+            <li>Domain</li>
+            <li>10 GB Space</li>
+            <li class="li1">Free SSl</li>
+            <li>4 Website Host</li>
+        </ul>
+        <p class="p1">&dollar; 10</p>
+        <button class="button">Buy Now</button>
+    </div>
+    <div class="div3">
+        <p class="std2">Standard</p>
+        <ul class="ul1">
+            <li>Hosting</li>
+            <li>Domain</li>
+            <li>10 GB Space</li>
+            <li>Free SSl</li>
+            <li>4 Website Host</li>
+        </ul>
+        <p class="p1">&dollar; 20</p>
+        <button class="button">Buy Now</button>
+    </div>
+  
+</body>
+</html>
